@@ -27,4 +27,4 @@ jobs:
         run: pip install semgrep 
 
       - name: Run semgrep
-        run: semgrep --config auto --eror || true 
+        run: semgrep --config auto --error || true 
