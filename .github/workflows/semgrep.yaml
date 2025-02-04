@@ -3,10 +3,10 @@ name: Semgrep Scan  # Nome do workflow
 on:
   push:
     branches:
-      - main  # Executa o pipeline quando houver push para o branch "main"
+      - master  # Executa o pipeline quando houver push para o branch "main"
   pull_request:
     branches:
-      - main  # Executa o pipeline quando houver um pull request para o branch "main"
+      - master  # Executa o pipeline quando houver um pull request para o branch "main"
 
 jobs:
   semgrep:
